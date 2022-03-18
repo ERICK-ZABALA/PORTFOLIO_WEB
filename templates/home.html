@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio WebSite</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+    <!-- Fonts Download from fonts.googleapis.com-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
+
+    <!-- CDN download from https://cdnjs.com/libraries/font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- Section Web Begin-->
+
+    <div class="hero">
+       <nav>
+          <h2 class="logo">{Port:<span>folio}</span></h2>
+          <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">About Me</a></li>
+             <li><a href="#">Services</a></li>
+             <li><a href="#">Skills</a></li>
+             <li><a href="#">Contact Us</a></li>
+          </ul>
+          <a href="#" class="btn">Subscribe</a>
+       </nav> 
+    </div>
+    
+    <div class="content">
+        <h4>Hello, my name is</h4>
+        <h1>Erick <span>Zabala</span></h1>
+        <h3>I am a <span class="move"></span></h3>
+        <p>As well wine lover and pizza in companie of my cat.</p>
+        <div class="newslatter">
+          <form>
+              <input type="email" name="email" id="mail" placeholder="erickzabala@hotmail.com">
+              <input type="submit" name="submit" value="Lets Start">
+          </form>
+        </div>
+    </div>
+
+    <!-- About Section start-->
+
+    <section class="about">
+        <div class="main">
+            <img src="">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer <span> & Voice Engineer</span></h5>
+                <p> I am passionate about innovation and I am looking for integrate applications that permit communicate in whatever place without limits. Animal life, humans, 
+                    and things can be the following level of better continue in this planet called Earth. I always am going to seeking to exceed your expectations to provide a good 
+                    experience the result is maintain connected and available all the time.</p>
+                <button type="button">Let's Talk</button>
+
+            </div>
+
+        </div>
+
+    </section>
+     
+    <!-- Service section start-->
+    
+
+    <div class="box">
+        <div class="card">
+            <i class="fa-solid fa-bars"></i>
+            <h5> Web RTC </h5>
+            <div class="pra">
+                    <p>Web RTC is designed to share media streams and where it needs a signal 
+                        server to exchange SDP (Session Description Protocol) after data Web RTC Data Channel 
+                        establish a connection directly to exchange data in full-duplex.</p>
+                    <p style="text-align: center;">
+                       <a class="button" href="https://github.com/ERICK-ZABALA/Web-RTC" target="blank">Read More</a>
+                    </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-user"></i>
+            <h5> Web Server API </h5>
+            <div class="pra">
+                    <p>This example is an integration between Thousand Eyes and Slack using Python. 
+                        Thousand Eyes sends alert notifications via our webhook service and those 
+                        notifications are received in the Web Server API deployed as an application 
+                        in the cloud of Heroku.</p>
+                    <p style="text-align: center;">
+                       <a class="button" href="https://github.com/ERICK-ZABALA/Thousand-Eyes" target="blank">Read More</a>
+                    </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-bell"></i>    
+            <h5> AWS & GitHub </h5>
+            <div class="pra">
+                    <p>This example is an integration between AWS using API Gateway and Lambda and GitHub. The application to deploy is in Node Js. 
+                        Lunch code Git Hub to AWS services to deploy application using infraestructure of Amazon.</p>
+                    <p style="text-align: center;">
+                       <a class="button" href="https://github.com/ERICK-ZABALA/awsWebApi" target="blank">Read More</a>
+                    </p>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Contact Me-->
+
+    <div class="contact-me">
+        <p>You can contact me through my social networks.</p>
+        <a class="button-two" href="#"> Hire Me </a>
+        
+
+
+    </div>
+
+    <!-- Footer Start-->
+
+    <footer>
+
+        <p>Erick Zabala</p>
+        <p>For more information visit my LinkedIn & GitHub: </p>
+        
+        <div class="social">
+           <a href="#"><i class="fa-brands fa-facebook-square"></i></a> 
+           <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+           <a href='https://github.com/ERICK-ZABALA' target="blank"><i class="fa-brands fa-github"></i></a>
+           <a href='https://www.linkedin.com/in/erick-zabala/' target="blank"><i class="fa-brands fa-linkedin"></i></a>   
+
+        </div>
+        <p class="end">Copy Right By Erick Zabala</p>
+    
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed (".move",{
+            strings:["developer", "voice engineer"] ,
+            typeSpeed: 120,
+            backSpeed: 110,
+            loop: true,
+
+        })
+    </script>
+
+
+</body>
+</html>
