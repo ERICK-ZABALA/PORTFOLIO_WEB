@@ -9,7 +9,7 @@
 
     height: 700px;
     width: 100%;
-    background-image: url("#canvasSimulacion");
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-position:right;
     background-position-y:200px;
